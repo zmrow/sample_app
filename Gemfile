@@ -8,8 +8,8 @@ group :development, :test do
 	gem 'rspec-rails', '2.10.0'
 end
 
-# Gems used only for assets and not required
-# in production environments by default.
+gem 'annotate', '~> 2.4.1.beta', group: :development
+
 group :assets do
   gem 'sass-rails',   '3.2.4'
   gem 'coffee-rails', '3.2.2'
