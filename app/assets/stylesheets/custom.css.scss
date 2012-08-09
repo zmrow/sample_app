@@ -101,7 +101,7 @@ footer {
 		list-style: none;
 		li {
 			float: left;
-			margin-left: 10px
+			margin-left: 10px;
 		}
 	}
 }
@@ -112,7 +112,7 @@ aside {
 	section{
 		padding: 10px 0;
 		border-top: 1px solid $grayLighter;
-		&:first_child {
+		&:first-child {
 			border: 0;
 			padding-top: 0;
 		}
@@ -142,7 +142,7 @@ aside {
 		padding: 0 10px;
 		border-left: 1px solid $grayLighter;
 		color: gray;
-		&:first_child {
+		&:first-child {
 			padding-left: 0;
 			border: 0;
 		}
@@ -176,7 +176,7 @@ input, textarea, select, .uneditable-input {
 }
 
 #error_explanation {
-	color: #f00;
+	color:#f00;
 	ul {
 		list-style: none;
 		margin: 0 0 18px 0;
